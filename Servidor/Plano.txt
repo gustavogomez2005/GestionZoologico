@@ -1,0 +1,19 @@
+src/
+├── config/
+│   └── db.js
+├── middlewares/
+│   ├── auth.middleware.js
+│   └── validator.middleware.js
+├── routes/
+│   ├── auth.routes.js
+│   ├── zoo.routes.js
+│   ├── especie.routes.js
+│   ├── animal.routes.js
+│   └── reporte.routes.js
+├── controllers/
+│   ├── auth.controller.js
+│   ├── zoo.controller.js
+│   ├── especie.controller.js
+│   ├── animal.controller.js
+│   └── reporte.controller.js
+└── app.js

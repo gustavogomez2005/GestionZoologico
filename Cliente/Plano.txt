@@ -1,0 +1,11 @@
+src/
+├── services/
+│   └── api.js              # Cliente HTTP con interceptores de token JWT
+├── components/
+│   ├── Login.jsx           # Inicio de sesión flexible (usuario/email/teléfono) + OAuth
+│   ├── ZoosManager.jsx     # Gestión CRUD de Zoológicos y validación de reubicación
+│   ├── EspeciesManager.jsx # Gestión CRUD de Especies
+│   ├── AnimalesManager.jsx # Gestión CRUD de Animales
+│   └── Reportes.jsx        # Selector de los reportes, tablas, CSV y gráficos Chart.js
+├── App.jsx                 # Navegación principal y control de estado global
+└── App.css                 # Diseño responsivo limpio y adaptable
